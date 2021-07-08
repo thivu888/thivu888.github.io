@@ -1,0 +1,177 @@
+:root{
+    --primary-color:#0099ff;
+    --text-color:#757575;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.main{
+    margin-top: 12px;
+}
+
+.leftWraper{
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fff;
+}
+.profile-info p{
+    line-height: 1.5;
+    margin: 15px 0;
+    font-size: 15px;
+    width: 100%;
+    padding: 0 15px 0 15px;
+    text-align: start;
+    color:var(--text-color);
+
+
+}
+.profile-info p i {
+    color: var(--primary-color);
+    font-size: 18px;
+    min-width: 34px;
+    text-align: start;
+
+}
+.profile-info p i a{
+    text-align: start;
+    margin-left: 4px;
+}
+.profile-info p:nth-child(4) i a
+{
+    margin-left: -2px;
+}
+.profile-img img{
+    width: 100%;
+}
+
+ul{
+    padding: 0;
+}
+li{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.top-skills{
+    margin: 0 15px;
+}
+.top-skills li{
+    display:inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.top-skills li span{
+    color:var(--text-color);
+    font-weight: 600;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.top-skills li div{
+    background-color: #f0f2f5;
+    border-radius: 10px;
+
+}
+
+.skill-js{
+    width: 100%;
+}
+.skill-js .skill-exp {
+    width: 60%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.skill-html{
+    width: 100%;
+}
+.skill-html .skill-exp {
+    width: 60%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.skill-reactjs{
+    width: 100%;
+}
+.skill-reactjs .skill-exp {
+    width: 60%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+
+.skill-nodejs{
+    width: 100%;
+}
+.skill-nodejs .skill-exp {
+    width: 30%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.skill-mongodb{
+    width: 100%;
+}
+.skill-mongodb .skill-exp {
+    width: 30%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.skill-sql{
+    width: 100%;
+}
+.skill-sql .skill-exp {
+    width: 70%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.skill-english{
+    width: 100%;
+}
+.skill-english .skill-exp {
+    width: 30%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
+
+.education{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 2%), 0 2px 10px 0 rgb(0 0 0 / 11%);
+    padding: 15px;
+    width: 100%;
+}
+
+.education p{
+    font-size: 24px;
+    color: var(--text-color);
+}
+.education p i{
+    font-size: 24px;
+    color: var(--primary-color);
+    min-width: 34px;
+    text-align: start;
+}
+
+.project{
+    margin-top: 20px;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    padding: 12px;
+}
+
