@@ -134,6 +134,15 @@ li{
     text-align: center;
     color: #fff;
 }
+.skill-java{
+    width: 100%;
+}
+.skill-java .skill-exp {
+    width: 70%;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: #fff;
+}
 
 .skill-english{
     width: 100%;
